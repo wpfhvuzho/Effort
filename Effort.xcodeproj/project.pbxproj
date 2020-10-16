@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		F63974F52538841D00D3E323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63974F42538841D00D3E323 /* AppDelegate.swift */; };
 		F63974F72538841D00D3E323 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63974F62538841D00D3E323 /* SceneDelegate.swift */; };
-		F63974F92538841D00D3E323 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63974F82538841D00D3E323 /* ContentView.swift */; };
+		F63974F92538841D00D3E323 /* EffortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63974F82538841D00D3E323 /* EffortView.swift */; };
 		F63974FB2538842100D3E323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63974FA2538842100D3E323 /* Assets.xcassets */; };
 		F63974FE2538842100D3E323 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63974FD2538842100D3E323 /* Preview Assets.xcassets */; };
 		F63975012538842100D3E323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63974FF2538842100D3E323 /* LaunchScreen.storyboard */; };
 		F639750C2538842200D3E323 /* EffortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639750B2538842200D3E323 /* EffortTests.swift */; };
 		F63975172538842200D3E323 /* EffortUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63975162538842200D3E323 /* EffortUITests.swift */; };
+		F63975252538851D00D3E323 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63975242538851D00D3E323 /* CountDownView.swift */; };
+		F63975272538853500D3E323 /* CountUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63975262538853500D3E323 /* CountUpView.swift */; };
+		F63975292538854700D3E323 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63975282538854700D3E323 /* RestView.swift */; };
+		F639752B2538861200D3E323 /* CountSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639752A2538861200D3E323 /* CountSetView.swift */; };
+		F639752D2538862800D3E323 /* MemorizeSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639752C2538862800D3E323 /* MemorizeSetView.swift */; };
+		F6631F88253933AD00AB1E57 /* CountClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6631F87253933AD00AB1E57 /* CountClass.swift */; };
+		F6631F8A2539383F00AB1E57 /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6631F892539383F00AB1E57 /* CountDownViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,7 @@
 		F63974F12538841D00D3E323 /* Effort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Effort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63974F42538841D00D3E323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F63974F62538841D00D3E323 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F63974F82538841D00D3E323 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F63974F82538841D00D3E323 /* EffortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffortView.swift; sourceTree = "<group>"; };
 		F63974FA2538842100D3E323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63974FD2538842100D3E323 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F63975002538842100D3E323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		F63975122538842200D3E323 /* EffortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63975162538842200D3E323 /* EffortUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffortUITests.swift; sourceTree = "<group>"; };
 		F63975182538842200D3E323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63975242538851D00D3E323 /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		F63975262538853500D3E323 /* CountUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpView.swift; sourceTree = "<group>"; };
+		F63975282538854700D3E323 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
+		F639752A2538861200D3E323 /* CountSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSetView.swift; sourceTree = "<group>"; };
+		F639752C2538862800D3E323 /* MemorizeSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeSetView.swift; sourceTree = "<group>"; };
+		F6631F87253933AD00AB1E57 /* CountClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountClass.swift; sourceTree = "<group>"; };
+		F6631F892539383F00AB1E57 /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +115,14 @@
 			children = (
 				F63974F42538841D00D3E323 /* AppDelegate.swift */,
 				F63974F62538841D00D3E323 /* SceneDelegate.swift */,
-				F63974F82538841D00D3E323 /* ContentView.swift */,
+				F63974F82538841D00D3E323 /* EffortView.swift */,
+				F63975242538851D00D3E323 /* CountDownView.swift */,
+				F63975262538853500D3E323 /* CountUpView.swift */,
+				F63975282538854700D3E323 /* RestView.swift */,
+				F6631F87253933AD00AB1E57 /* CountClass.swift */,
+				F639752A2538861200D3E323 /* CountSetView.swift */,
+				F639752C2538862800D3E323 /* MemorizeSetView.swift */,
+				F6631F892539383F00AB1E57 /* CountDownViewController.swift */,
 				F63974FA2538842100D3E323 /* Assets.xcassets */,
 				F63974FF2538842100D3E323 /* LaunchScreen.storyboard */,
 				F63975022538842100D3E323 /* Info.plist */,
@@ -269,7 +290,14 @@
 			files = (
 				F63974F52538841D00D3E323 /* AppDelegate.swift in Sources */,
 				F63974F72538841D00D3E323 /* SceneDelegate.swift in Sources */,
-				F63974F92538841D00D3E323 /* ContentView.swift in Sources */,
+				F6631F8A2539383F00AB1E57 /* CountDownViewController.swift in Sources */,
+				F63975252538851D00D3E323 /* CountDownView.swift in Sources */,
+				F639752B2538861200D3E323 /* CountSetView.swift in Sources */,
+				F63975272538853500D3E323 /* CountUpView.swift in Sources */,
+				F6631F88253933AD00AB1E57 /* CountClass.swift in Sources */,
+				F63975292538854700D3E323 /* RestView.swift in Sources */,
+				F63974F92538841D00D3E323 /* EffortView.swift in Sources */,
+				F639752D2538862800D3E323 /* MemorizeSetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
